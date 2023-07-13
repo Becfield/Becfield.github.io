@@ -1,0 +1,36 @@
+.feed{
+    padding-bottom: 71px;
+    &__wrapper{
+        display: flex;
+        margin-top: 70px;
+        align-items: flex-start;
+    }
+    img{
+        margin-right: 62px; 
+    }
+    &__heading{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+        color: #0d0d0d;
+    }
+    &__subheading{
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        color: #646464;
+        margin-top: 10px;
+    }
+    &__text{
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        color: #0d0d0d;    
+        margin-top: 19px;  
+    }
+    br {
+        content: ' ';
+        display: block;
+        margin: 15px 0;
+    }
+}
